@@ -1,0 +1,23 @@
+prvo instaliram bootstrap:
+npm install bootstrap
+npm install jquery popper.js --save
+
+odem na angular.json i odem u njemu na styles
+posle styles.css dodajem tj treba da bude ovako konacno
+"src/styles.css",
+"./node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+pa potom u scripts
+"./node_modules/jquery/dist/jquery.slim.js",
+"./node_modules/popper.js/dist/umd/popper.min.js",
+"./node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+sada napravim komponeentu profile 
+- napravim folder service i u njemu github.service.ts
+
+odem na svoj github pa na settings pa OAuth APPs
+
+**************
+ZA MAP JE BITNO DA BUDE OVAKO u package.json:
+"rxjs": "~6.2.0",
+"rxjs-compat": "^6.3.3",
